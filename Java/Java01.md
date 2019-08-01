@@ -275,7 +275,27 @@ swithc(表达式) {
 变量：byte,int,char,short,string
 
 
+```java
+// 获取键盘操作
+java.util.Scanner;
 
+Scanner sc = new Scanner(System.in);
+int n = sc.nextInt();
+
+
+// 带标签的break 和 continue
+
+labelTest: for () {
+        for () {
+            break labelTest;  // 结束指定标识的for循环
+            continue labelTest; // 结束指定标识的for循环
+        }
+}
+
+
+退出程序
+System.exit(0);
+```
 
 
 
