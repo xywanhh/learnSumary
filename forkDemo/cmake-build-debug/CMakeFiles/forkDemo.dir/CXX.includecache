@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/githubRepositorys/learnSumary/forkDemo/main1.cpp
+stdio.h
+-
+unistd.h
+-
+sys/types.h
+-
+
